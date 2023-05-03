@@ -8,7 +8,7 @@ from utils import get_data, to_tensor, targetTensor
 
 
 class RNN(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size, categories_size):
+    def __init__(self, input_size, hidden_size, output_size, categories_size): 
         super(RNN, self).__init__()
         self.hidden_size = hidden_size
 
